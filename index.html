@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.css">
+    <title>Game Live</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="colored">
+        <h1>Игра "Жизнь"</h1>
+    </div>
+    <input id="inputSquare" type="number" placeholder="размер поля кратный 10">
+<!--    <button id="btnSquare"> Изменить размеры поля </button>-->
+    <button class="button" id="btnSquare">
+        <span class="shape"></span>
+        Изменить размеры поля
+    </button>
+<!--    <button id="start"> СТАРТ </button>-->
+    <button class="button" id="start">
+        <span class="shape"></span>
+        СТАРТ
+    </button>
+<!--    <button id="stop"> СТОП </button>-->
+    <button class="button" id="stop">
+        <span class="shape"></span>
+        СТОП
+    </button>
+<!--    <button id="clear"> ОЧИСТИТЬ </button>-->
+    <button class="button" id="clear">
+        <span class="shape"></span>
+        ОЧИСТИТЬ
+    </button>
+    <canvas class="container" id="board" width="500" height="500"></canvas>
+</div>
+
+
+<script src ='/app.js'></script>
+</body>
+</html>
